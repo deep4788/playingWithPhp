@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
     /** Data Types **/
     $int = 666;
@@ -38,7 +39,7 @@
     }
 
     /** Filesystem **/
-    echo basename("/Users/dummy//basic.php");
+    echo basename("/Users/dummy/basic.php");
     echo "\n";
     echo disk_free_space("."), " bytes";
     echo "\n";
